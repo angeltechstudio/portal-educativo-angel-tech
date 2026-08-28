@@ -1,0 +1,164 @@
+
+body{
+
+    margin: 0;
+
+}
+
+header{
+
+    background: #3b3bb3;
+}
+
+header h1{
+
+    text-align: center;
+    color: white;
+    padding: 20px;
+
+}
+
+nav ul{
+
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+
+    margin: 20px;
+}
+
+nav ul li a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 25px;    
+}
+
+nav ul li a:hover{
+
+    color: yellow;
+}
+
+body{
+
+    margin: 0;
+    background: #eef2f7;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.encabezado{
+
+    background: #0d47a1;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+
+}
+
+.encabezado h1{
+
+    margin-bottom: 10px;
+
+}
+
+.encabezado h2{
+
+    margin-top: 0;
+
+}
+
+.encabezado p{
+
+    font-size: 18px;
+
+}
+
+.formulario{
+
+    width: 400px;
+    background: white;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    
+}
+
+.formulario input{
+
+    width:100%;
+    padding:14px;
+    margin-top:8px;
+    margin-bottom:18px;
+    border:1px solid #cfcfcf;
+    border-radius:8px;
+    font-size:16px;
+    transition:all .3s ease;
+    box-sizing:border-box;
+    
+}
+
+.formulario input:focus{
+
+    border:1px solid #1b4f9c;
+    box-shadow:0 0 8px rgba(27,79,156,.35);
+    outline:none;
+
+}
+
+.formulario input[type="submit"]{
+
+    background: #2d2dc2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+
+    padding: 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.formulario input[type="submit"]:hover{
+
+    background: #1b4f9c;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0,0,0,.25);
+}
+
+
+
+.formulario input[type="checkbox"]{
+
+    width: auto;
+    margin-right: 8px;
+
+}
+
+.volver {
+
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+    background-color: #0d47a1;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-weight: bold;
+
+}
+
+.volver:hover{
+
+    background-color: #1565c0;
+
+}
+
